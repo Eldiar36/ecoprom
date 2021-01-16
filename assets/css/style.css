@@ -178,10 +178,9 @@ header .nav_menu  ul li a {
     font-size: 24px;
     line-height: 29px;
     color: #FE2C76;
-
 }
 .mobile-menu .phone_number img {
-    margin-right: 33px;
+    margin-right: 25px;
 }
 .burger-menu {
 
@@ -311,7 +310,6 @@ header .nav_menu  ul li a {
     font-size: 22px;
     line-height: 19px;
     color: #FFffff;
-
 }
 .burger-menu_nav ul li:last-child {
     margin-right: 0;
@@ -325,11 +323,6 @@ header .nav_menu  ul li a {
 }
 .burger-menu_nav ul li .burger-menu_link:hover {
     border-bottom: 1px solid #FFffff;
-}
-.burger-menu_link:hover,
-.burger-menu_link:focus {
-    color: #ffffff;
-    font-weight: 800;
 }
 .burger-menu_link.line {
     text-decoration-line: underline;
@@ -1118,6 +1111,40 @@ img.mfp-img {
 }
 #contacts .map .map-cart .button {
     margin-top: 28px;
+}
+#contacts .map-title-wrap{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30%;
+    max-height: 100px;
+    margin: auto;
+}
+#contacts .map-title {
+   position: relative;
+    display: flex;
+    align-items: center;
+    padding: 13px 16px;
+    max-width: 430px;
+    max-height: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+#contacts .map-title:after {
+    content: "";
+    width: 29px;
+    height: 25px;
+    background: url("../images/Polygon 2.png")no-repeat;
+    background-size: contain;
+    bottom: -25px;
+    left: 20px;
+    position: absolute;
+}
+#contacts .map-title p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 15px;
+    color: #26364B;
 }
 footer {
     background: url("../images/Rectangle 35.png")no-repeat;

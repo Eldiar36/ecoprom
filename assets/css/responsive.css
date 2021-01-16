@@ -322,6 +322,16 @@
     #contacts .map .map-cart {
         top: 100%;
     }
+    #contacts .map .map-title-wrap {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #contacts .map .map-title-wrap .map-title {
+        max-width: 400px;
+        max-height: 200px;
+        margin: 0 auto;
+    }
     #home .home_box {
         padding: 0 30px;
     }
@@ -475,12 +485,25 @@
         padding: 0;
     }
     #contacts .map .map-cart {
-        width: 90%;
+        width: 100%;
         padding: 22px 28px 57px 28px;
         position: absolute;
         left: 0;
         right: 0;
+        top: 90%;
         margin: auto;
+        border-radius: 30px;
+    }
+    #contacts .map-title-wrap {
+
+        max-height: 200px;
+    }
+    #contacts .map .map-title-wrap .map-title {
+        width: 220px;
+        padding: 16px 12px;
+    }
+    #contacts .map .map-title-wrap .map-title p {
+        margin-left: 9px;
     }
 
 }
