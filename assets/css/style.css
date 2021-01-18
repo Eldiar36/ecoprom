@@ -787,10 +787,7 @@ main {
     color: #FE2C76;
     margin-bottom: 24px;
 }
-#crushed-factions .accordion.accordion-expanded .panel {
-    display: block;
-    padding-top: 30px;
-}
+
 #crushed-factions .factions-box .box-header .crushed_img {
     height: 256px;
 }
@@ -866,12 +863,7 @@ main {
 #crushed-factions .btn-wrap {
     padding: 0 25px 30px 22px;
 }
-#crushed-factions .panel {
-    display: none;
-}
-#crushed-factions .accordion.accordion-expanded .panel {
-    display: block;
-}
+
 #crushed-factions .accordion.accordion-expanded .accordion-header .title img {
     transform: rotate(180deg);
 }

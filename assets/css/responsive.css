@@ -181,6 +181,16 @@
         z-index: 99;
         padding: 23px 0;
     }
+    #crushed-factions .panel {
+        display: none;
+    }
+    #crushed-factions .accordion.accordion-expanded .panel {
+        display: block;
+    }
+    #crushed-factions .accordion.accordion-expanded .panel {
+        display: block;
+        padding-top: 30px;
+    }
     #home .home_box h1 {
         font-size: 45px;
         line-height: 40px;
