@@ -191,6 +191,10 @@
         display: block;
         padding-top: 30px;
     }
+    .accordion-wrapper .accordion.accordion-expanded .accordion-header .mobile_icon {
+        transform: rotate(180deg);
+    }
+
     #home .home_box h1 {
         font-size: 45px;
         line-height: 40px;
